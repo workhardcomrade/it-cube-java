@@ -30,8 +30,12 @@ public class PracticeOne {
      * Выполни задание двумя способами, с помощь цикла for и while.
      */
     public static void main(String[] args) {
+        // Задание №1
+        System.out.println("Hello, world!");
+        System.out.println("Hello, world!");
+        System.out.println("Hello, world!");
 
-
+        // Задание №2
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
@@ -42,10 +46,12 @@ public class PracticeOne {
             System.out.println("Это не треугольник!");
         }
 
+        // Задание №3
+        // for
         for(int i = 0; i < 100; i++ ){
             System.out.println("Hello, world!");
         }
-
+        //while
         int y = 0;
         while (y < 100){
             System.out.println("Hello, world!");
