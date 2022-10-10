@@ -7,7 +7,7 @@ public class BoxWithMethods {
     double depth;
 
     void volume() {
-        System.out.println("Объем " + (width * height * depth)); //Метод volume(). Ключевое слово void - указывает, что метод не возвращает никаих занчения.
+        System.out.println("Объем " + (width * height * depth)); //Метод volume(). Ключевое слово void - указывает, что метод не возвращает никаких значений.
     }
 
     void volume1(double width, double height, double depth) {
@@ -15,6 +15,6 @@ public class BoxWithMethods {
     }
 
     double volume2(double width, double height, double depth) {
-        return width * height * depth; // Параметризированый метод, возвращающий значения, получаемое в результате умножения.
+        return width * height * depth; // Параметризированый метод, возвращающий значения, получаемые в результате умножения.
     }
 }
