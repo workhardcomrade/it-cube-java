@@ -14,7 +14,7 @@ public class BoxWithMethods {
         System.out.println("Объем " + (width * height * depth)); // Параметризированный метод. Принимает значения, указываемые при вызове метода. [(возвращаемый тип/void) имя_метода(параметры){тело метода}]
     }
 
-    double volume2(double width, double height, double depth) {
+    double volume2(double width, double height, double depth) { // сначала необходимо указать тип возвращаемого значанеия (в данном случаи double)
         return width * height * depth; // Параметризированый метод, возвращающий значения, получаемые в результате умножения.
     }
 }
